@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy Web Title and Url
 // @namespace    http://ds63.eu.org
-// @version      1.0
+// @version      1.1
 // @description  Copy Web Title and Url to clipboard when Alt + S is pressed.
 // @include      *
 // @grant        none
@@ -33,8 +33,14 @@ function copyToClipboard(text) {
 function getText(){
     var pageTitle = document.title;
     var currentUrl = window.location.href;
+    // 对得到的网址进行处理
+    // 如果是b站的链接，则需要截去后面的参数
+    if(currentUrl.indexOf("bilibili.com") != -1){
+        currentUrl = currentUrl.split("?")[0];
+    }
 
     var formattedText = `[${pageTitle}](${currentUrl})`;
     //console.log(formattedText);
+
     return formattedText;
 }
