@@ -14,6 +14,7 @@
 
 ### 自动跳转链接
 **Usage:** This script automatically redirects links to their translated versions without requiring any user input.
+
 **PS:** There is a better designed and tested script: [OldPanda/Open-the-F-king-URL-Right-Now: 自动跳转某些网站不希望用户直达的外链](https://github.com/OldPanda/Open-the-F-king-URL-Right-Now)
 
 
