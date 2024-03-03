@@ -6,10 +6,15 @@
 
 ### Copy Web Title and URL
 
-**Usage:** Press `Alt` and `S` simultaneously, and the title and URL of the website you are browsing will be copied to your clipboard in the following format:
+**Usage:** Press `Alt` and `s` simultaneously, and the title and URL of the website you are browsing will be copied to your clipboard in the following format:
 `[EuDs63/TemperMonkeyScripts: A repository to store my TemperMonkey scripts.](https://github.com/EuDs63/TemperMonkeyScripts)`
 
 **1.1 Update:** Make links from bilibili more elegant
+
+**1.2 Update:** Make links from bilibili simpler
+
+**todo**
+- [ ] The `s` is conflict with Youtube,so this script does not work in Youtube. I still can not find ways to solve it.
 
 
 ### 自动跳转链接
