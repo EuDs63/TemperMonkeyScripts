@@ -23,6 +23,6 @@
 **PS:** There is a better designed and tested script: [OldPanda/Open-the-F-king-URL-Right-Now: 自动跳转某些网站不希望用户直达的外链](https://github.com/OldPanda/Open-the-F-king-URL-Right-Now)
 
 **Tode**
-- [ ] 目前的b站标题处理过于粗暴
+- [x] 目前的b站标题处理过于粗暴
 
 

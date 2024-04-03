@@ -36,8 +36,12 @@ function getText(){
     // 对得到的网址进行处理
     // 如果是b站的链接，
     if(currentUrl.indexOf("bilibili.com") != -1){
-        // 删去title最后的"_哔哩哔哩_bilibili"
-        pageTitle = pageTitle.substring(0, pageTitle.length - 14);
+        // 判断是否有_哔哩哔哩_bilibili
+        if (pageTitle.endsWith("_哔哩哔哩_bilibili")){
+            // 删去title最后的"_哔哩哔哩_bilibili"
+            pageTitle = pageTitle.substring(0, pageTitle.length - 14);
+        }
+        
         //截去后面的参数
         currentUrl = currentUrl.split("?")[0];
     }
