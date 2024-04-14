@@ -46,7 +46,7 @@ function getText(){
         currentUrl = currentUrl.split("?")[0];
     }
 
-    var formattedText = `[${pageTitle}](${currentUrl})`;
+    var formattedText = `[${pageTitle}](${currentUrl} )`;
 
     return formattedText;
 }
